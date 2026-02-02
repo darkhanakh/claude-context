@@ -1,0 +1,26 @@
+{
+  "name": "hybrid-search-qdrant-example",
+  "version": "1.0.0",
+  "description": "Example demonstrating hybrid search with sparse embeddings in Qdrant",
+  "main": "index.ts",
+  "scripts": {
+    "start": "npx ts-node index.ts",
+    "build": "tsc"
+  },
+  "keywords": [
+    "qdrant",
+    "hybrid-search",
+    "sparse-embeddings",
+    "bm25",
+    "vector-search"
+  ],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@zilliz/claude-context-core": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.0"
+  }
+}
